@@ -4,7 +4,7 @@
 
 #### Vamos a establecer una VPN de acceso remoto y a establecer una VPN de sitio a sitio, (Autenticación será con TLS utilizando certificados X.509 y la asignación de direcciones dinámica). 
 
-## [VPN de acceso remoto con OpenVPN y certificados x509]()
+## [VPN de acceso remoto con OpenVPN y certificados x509](https://github.com/MoralG/VPN_con_OpenVPN_y_Certificadosx509/blob/master/OpenVPN_y_CertificadosX509.md#vpn-de-acceso-remoto-con-openvpn-y-certificados-x509)
 
 * Uno de los dos equipos (el que actuará como servidor) estará conectado a dos redes
 * Para la autenticación de los extremos se usarán obligatoriamente certificados digitales, que se generarán utilizando openssl y se almacenarán en el directorio /etc/openvpn, junto con los parámetros Diffie-Helman y el certificado de la propia Autoridad de Certificación.
@@ -18,7 +18,7 @@
 
 * Tras el establecimiento de la VPN, la máquina cliente debe ser capaz de acceder a una máquina que esté en la otra red a la que está conectado el servidor.
 
-## [VPN sitio a sitio con OpenVPN y certificados x509]()
+## [VPN sitio a sitio con OpenVPN y certificados x509](https://github.com/MoralG/VPN_con_OpenVPN_y_Certificadosx509/blob/master/OpenVPN_y_CertificadosX509.md#vpn-sitio-a-sitio-con-openvpn-y-certificados-x509)
 
 * Cada equipo estará conectado a dos redes, una de ellas en común
 * Para la autenticación de los extremos se usarán obligatoriamente certificados digitales, que se generarán utilizando openssl y se almacenarán en el directorio /etc/openvpn, junto con con los parámetros Diffie-Helman y el certificado de la propia Autoridad de Certificación.
